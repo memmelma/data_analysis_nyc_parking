@@ -14,6 +14,10 @@ docker run -it --rm -p 8888:8888 -v C:/[path to git repository]:/home/jovyan/wor
 #open and run the following script to install the dependencies 'scripts/install_modules'<br />
 <br />
 <br />
+#data source:<br />
+#https://www.kaggle.com/new-york-city/nyc-parking-tickets<br />
+<br />
+<br />
 #installed modules:<br />
 #Gmaps:	https://github.com/pbugnion/gmaps<br />
 #GoogleMapsAPI: googlemaps<br />
