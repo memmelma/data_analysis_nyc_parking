@@ -9,9 +9,16 @@ Data analysis of NYC parking tickets<br />
 #2<br />
 #initialize the jupyter notebook on localhost:8888 and attach the git-repository as root directory<br />
 docker run -it --rm -p 8888:8888 -v C:/[path to git repository]:/home/jovyan/work jupyter/datascience-notebook<br />
+#maybe make a .bat out of it?<br />
 <br />
 #3<br />
 #open and run the following script to install the dependencies 'scripts/install_modules'<br />
+<br />
+#sick of installing modules every time you start the notebook?<br />
+#3.1<br />
+#open fresh notebook<br />
+#3.2<br />
+docker commit [container id] jupyter/datascience-notebook<br />
 <br />
 <br />
 #data source:<br />
@@ -42,3 +49,4 @@ docker exec -it [container_id]  /bin/bash<br />
 docker stop $(docker ps -a -q)<br />
 docker rm $(docker ps -a -q)<br />
 <br />
+
