@@ -2,20 +2,20 @@
 Data analysis of NYC parking tickets
 
 ## setup:
-1.
+### 1.
 - .gitignore includes data folder
 - csv-files have to be downloaded and placed in the following subfolder 'data\nyc_parking_tickets'
-2.
+### 2.
 - initialize the jupyter notebook on localhost:8888 and attach the git-repository as root directory
-- docker run -it --rm -p 8888:8888 -v C:/[path to git repository]:/home/jovyan/work jupyter/datascience-notebook
+- `docker run -it --rm -p 8888:8888 -v C:/[path to git repository]:/home/jovyan/work jupyter/datascience-notebook`
 - maybe make a .bat out of it? ;)
-3.
+### 3.
 - open and run the following script to install the dependencies 'scripts/install_modules'
 - sick of installing modules every time you start the notebook?
 #### 3.1
 - open fresh notebook
 #### 3.2
-- docker commit [container id] jupyter/datascience-notebook
+- `docker commit [container id] jupyter/datascience-notebook`
 ## data source:
 - https://www.kaggle.com/new-york-city/nyc-parking-tickets
 ## installed modules:
@@ -26,13 +26,13 @@ Data analysis of NYC parking tickets
 - https://hub.docker.com/r/jupyter/datascience-notebook/
 ## commands:
 ### show docker container
-- docker container ls [--all]
+- `docker container ls [--all]`
 ### show docker images
-- docker image ls [--all]
+- `docker image ls [--all]`
 ### access bash of the jupyter-notebook
-- docker exec -it [container_id]  /bin/bash
+- `docker exec -it [container_id]  /bin/bash`
 ### stop and remove all docker containers
-- docker stop $(docker ps -a -q)
-- docker rm $(docker ps -a -q)
+- `docker stop $(docker ps -a -q)`
+- `docker rm $(docker ps -a -q)`
 
 
