@@ -4,7 +4,6 @@ Data analysis of NYC parking tickets
 ## setup:
 ### UPDATE!
 - Feather format for faster reading-ops
-- open Terminal and run `conda install feather-format -c conda-forge`
 ### 1.
 - .gitignore includes data folder
 - csv-files have to be downloaded and placed in the following subfolder 'data\nyc_parking_tickets'
