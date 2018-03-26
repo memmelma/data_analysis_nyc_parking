@@ -2,6 +2,8 @@
 Data analysis of NYC parking tickets
 
 ## setup:
+### UPDATE!
+- Feather format for faster reading-ops
 ### 1.
 - .gitignore includes data folder
 - csv-files have to be downloaded and placed in the following subfolder 'data\nyc_parking_tickets'
@@ -21,6 +23,8 @@ Data analysis of NYC parking tickets
 ## installed modules:
 - Gmaps:	https://github.com/pbugnion/gmaps
 - GoogleMapsAPI: googlemaps
+- Folium: https://folium.readthedocs.io/en/latest/
+- Feather: https://pypi.python.org/pypi/feather-format
 ## docker image used:
 - juypter/datascience-notebook
 - https://hub.docker.com/r/jupyter/datascience-notebook/
