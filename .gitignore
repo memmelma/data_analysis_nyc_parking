@@ -1,0 +1,6 @@
+data/
+old/
+scripts/.ipynb_checkpoints/
+.ipynb_checkpoints/
+jupyter_start.bat
+folium.txt
