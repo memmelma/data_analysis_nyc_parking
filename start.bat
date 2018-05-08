@@ -1,1 +1,1 @@
-docker run -it --rm -p 8888:8888 -v C:/Users/Marius/Desktop/data_analysis_nyc_parking:/home/jovyan/work jupyter/datascience-notebook
+docker run -it --rm -p 8888:8888 -v %cd%:/home/jovyan/work jupyter/datascience-notebook
