@@ -11,8 +11,11 @@ Data analysis of NYC parking tickets
 - initialize the jupyter notebook on localhost:8888 and attach the git-repository as root directory
 - `docker run -it --rm -p 8888:8888 -v C:/[path to git repository]:/home/jovyan/work jupyter/datascience-notebook`
 ### 2.
-- open and run the following script to install the dependencies 'scripts/install_modules'
+- download the datasets from Kaggle into the following directory: "data/"
+- rename the file of the fiscal year 2014 to "Parking_Violations_Issued_-_Fiscal_Year_2014.csv"
 ### 3.
+- open and run the following script to install the dependencies 'scripts/install_modules'
+### 4.
 - Scripts are stored in the scripts-folder
 - Data is stored in the data-folder
 ## data source:
