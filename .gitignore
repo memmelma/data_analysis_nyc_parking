@@ -1,6 +1,6 @@
-data/
-old/
 scripts/.ipynb_checkpoints/
 .ipynb_checkpoints/
-jupyter_start.bat
-folium.txt
+data/nyc_parking_tickets/Parking_Violations_Issued_-_Fiscal_Year_2014.csv
+data/nyc_parking_tickets/Parking_Violations_Issued_-_Fiscal_Year_2015.csv
+data/nyc_parking_tickets/Parking_Violations_Issued_-_Fiscal_Year_2016.csv
+data/nyc_parking_tickets/Parking_Violations_Issued_-_Fiscal_Year_2017.csv
