@@ -1,6 +1,4 @@
 ## setup:
-### UPDATE!
-- Feather format for faster reading-ops
 ### 1.
 - download the dockerimage jupyter/datascience-notebook
 - run the start.bat
@@ -11,7 +9,7 @@
 - download the datasets from Kaggle into the following directory: "data/"
 - rename the file of the fiscal year 2014 to "Parking_Violations_Issued_-_Fiscal_Year_2014.csv"
 ### 3.
-- open and run the following script to install the dependencies 'scripts/install_modules'
+- open and run the following script to install the dependencies and modules 'scripts/install_modules'
 ### 4.
 - Scripts are stored in the scripts-folder
 - Data is stored in the data-folder
